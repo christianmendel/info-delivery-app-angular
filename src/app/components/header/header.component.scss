@@ -1,0 +1,42 @@
+header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 6px #F4F3EF;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  transition: 0.5s;
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+
+    div {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+
+      ul {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+    }
+
+    a {
+      color: black;
+      font-weight: 600;
+      font-size: 1.3rem;
+      cursor: pointer;
+    }
+  }
+}
